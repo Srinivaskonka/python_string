@@ -20,3 +20,17 @@ name = "Srinivas"
 greeting = f"Hello, {name.upper()}!"
 print(greeting)  
 # Output: Hello, SRINIVAS!
+```
+## String Methods Reference
+
+| Method          | Description                                   | Example                           |
+| --------------- | --------------------------------------------- | --------------------------------- |
+| `upper()`       | Converts to uppercase                         | `"abc".upper()` → `"ABC"`         |
+| `lower()`       | Converts to lowercase                         | `"ABC".lower()` → `"abc"`         |
+| `strip()`       | Removes whitespace from both ends             | `"  hi  ".strip()` → `"hi"`       |
+| `replace(a, b)` | Replaces `a` with `b` in the string           | `"hi".replace("i", "o")` → `"ho"` |
+| `split()`       | Splits into list by spaces or given separator | `"a,b".split(",")` → `['a', 'b']` |
+| `join()`        | Joins iterable into string with separator     | `"-".join(['a','b'])` → `"a-b"`   |
+| `find()`        | Finds index of substring (-1 if not found)    | `"hello".find("e")` → `1`         |
+| `startswith()`  | Checks if string starts with given substring  | `"hi".startswith("h")` → `True`   |
+| `endswith()`    | Checks if string ends with given substring    | `"hi".endswith("i")` → `True`     |
